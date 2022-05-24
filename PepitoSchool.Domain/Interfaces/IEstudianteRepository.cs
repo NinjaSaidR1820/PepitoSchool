@@ -9,9 +9,9 @@ namespace PepitoSchool.Domain.Interfaces
 {
     public interface IEstudianteRepository : IRepository<Estudiante>
     {
-        Estudiante FindById(string id);
+        Estudiante FindById(int id);
         Estudiante FindByCarnet(string carnet);
-        Estudiante Promedy(int mate, int contab, int progra, int estadis);
+        Estudiante Promedy(Estudiante IdEstudiante);
 
 
         IEnumerable<Estudiante> FindByLastnames(string lastnames);

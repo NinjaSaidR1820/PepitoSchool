@@ -37,7 +37,7 @@ namespace PepitoSchool.Applications.Services
             return estudianteRepository.FindByCarnet(carnet);
         }
 
-        public Estudiante FindById(string id)
+        public Estudiante FindById(int id)
         {
             return estudianteRepository.FindById(id);
         }
@@ -57,7 +57,7 @@ namespace PepitoSchool.Applications.Services
             return estudianteRepository.GetAll();
         }
 
-        public Estudiante Promedy(int mate, int contab, int progra, int estadis)
+        public Estudiante Promedy(Estudiante IdEstudiante)
         {
             throw new NotImplementedException();
         }

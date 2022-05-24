@@ -11,7 +11,7 @@ namespace PepitoSchool.Domain.Interfaces
 {
     public interface ISchoolDBContext
     {
-        public DbSet<Estudiante> Assets { get; set; }
+        public DbSet<Estudiante> Estudiantes { get; set; }
 
 
         public int SaveChanges();
