@@ -134,29 +134,7 @@ namespace PepitoSchool.Infraestructure.Repository
 
         public Estudiante Promedy(Estudiante IdEstudiante)
         {
-            try
-            {
-                if (IdEstudiante == null)
-                {
-                    throw new ArgumentNullException("El Estudiante no puede ser null.");
-                }
-
-                Estudiante Estudiante = FindById(IdEstudiante.Id);
-                if (Estudiante == null)
-                {
-                    throw new Exception($"El Estudiante con id {IdEstudiante.Id} no existe.");
-                }
-
-               
-                
-
-               
-                
-            }
-            catch
-            {
-                throw;
-            }
+            throw new NotImplementedException();
         }
 
         public int Update(Estudiante t)

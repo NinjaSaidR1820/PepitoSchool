@@ -18,5 +18,7 @@ namespace PepitoSchool.Domain.Entities
         public int Contabilidad { get; set; }
         public int Programacion { get; set; }
         public int Estadistica { get; set; }
+
+        public double Promedio { get; set; }
     }
 }
