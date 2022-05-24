@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepitoSchool", "PepitoSchool\PepitoSchool.csproj", "{3645957A-B29D-458E-A326-91BDB0060292}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PepitoSchool", "PepitoSchool\PepitoSchool.csproj", "{3645957A-B29D-458E-A326-91BDB0060292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepitoSchool.Domain", "PepitoSchool.Domain\PepitoSchool.Domain.csproj", "{218A352B-4CE9-47D0-B87C-CF8B6816CA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepitoSchool.Applications", "PepitoSchool.Applications\PepitoSchool.Applications.csproj", "{08BEAC38-2462-4B75-AFC3-661D8B1C817E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepitoSchool.Infraestructure", "PepitoSchool.Infraestructure\PepitoSchool.Infraestructure.csproj", "{639082D3-3039-40B8-B8DD-E4A9D299636A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3645957A-B29D-458E-A326-91BDB0060292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3645957A-B29D-458E-A326-91BDB0060292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3645957A-B29D-458E-A326-91BDB0060292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218A352B-4CE9-47D0-B87C-CF8B6816CA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218A352B-4CE9-47D0-B87C-CF8B6816CA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218A352B-4CE9-47D0-B87C-CF8B6816CA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218A352B-4CE9-47D0-B87C-CF8B6816CA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BEAC38-2462-4B75-AFC3-661D8B1C817E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BEAC38-2462-4B75-AFC3-661D8B1C817E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BEAC38-2462-4B75-AFC3-661D8B1C817E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BEAC38-2462-4B75-AFC3-661D8B1C817E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639082D3-3039-40B8-B8DD-E4A9D299636A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639082D3-3039-40B8-B8DD-E4A9D299636A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639082D3-3039-40B8-B8DD-E4A9D299636A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639082D3-3039-40B8-B8DD-E4A9D299636A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
